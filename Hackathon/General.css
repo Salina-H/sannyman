@@ -1,0 +1,85 @@
+body{
+	background-color:rgb(248,222,225);
+}
+
+/*nav bar stuff*/
+ul.navBar{
+	z-index: 100;
+	position: fixed;
+	background-color:black;
+	text-align: center;
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	max-height: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+a.navItem{
+	padding-top: 11px;
+	width: 20vw;
+	height: 38px;
+	margin: auto;
+	display: inline-block;
+	transition-duration: 0.4s;
+}
+li.navBar:hover{
+	background-color:rgb(217, 217, 217);
+
+}
+li.activeNavItem{
+	background-color:rgb(150, 150, 150);
+}
+
+/*general style stuff*/
+h3{
+	font-family: 'cute', Brush Script MT;
+	font-size: 50;
+	font-weight: normal;
+}
+a{
+	color: white;
+	font-family: 'anon', 'cute', Anonymous Pro;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 100;
+	color:rgb(190,156,160);
+	font-family: 'main', Segoe UI Black, Helvetica, sans-serif;
+	margin: 0;
+}
+p{
+	font-family: 'cute', Brush Script MT;
+	font-size: 30;
+}
+p.brown{
+	color:rgb(181,137,142);
+}
+p.white{
+	color: white;
+}
+.clear-float{ 
+	clear: both;
+  }
+/*footer*/
+.footer{
+	padding-top: 50px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-align: center;
+	color: black;
+	font-family: 'cute', Brush Script MT;
+	text-decoration: none;
+
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
