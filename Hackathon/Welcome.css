@@ -1,10 +1,5 @@
-.clear-float{
-    clear: both;
-}
 body{
-    margin: 0;
     font-family: 'Raleway', sans-serif;
-    padding: 0;
 }
 h1{
     padding: 0;
@@ -33,7 +28,7 @@ section.welcome{
 }
 a.arrow{
     float: left;
-    margin-left: 42vw;
+    margin-left: 44.5vw;
     padding: 60px;
     border-right: 3px solid rgb(255, 255, 255);
     border-top: 3px solid rgb(255, 255, 255);
@@ -41,7 +36,7 @@ a.arrow{
 
 }
 #aboutSannyMan{
-    padding: 80px 50px 50px 50px;
+    padding: 80px 50px 20px 50px;
 }
 div.align{
     display: flex;
@@ -53,10 +48,10 @@ p.about{
     float: left;
     width: 50%;
 }
-img.back{
+img.photo{
     float: right;
     width: 40%;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 a.login{
@@ -69,23 +64,10 @@ a.login{
 	transition-duration: 0.4s;
 	text-decoration: none;
     padding: 20px;
+    margin-bottom: 60px;
     background-color: gainsboro;
 }
 a.login:hover{
 	background-color: gray;
 	text-align: center;
-}
-a.footer{
-    text-decoration: none;
-    color: rgb(153, 153, 153);
-}
-div.footer{
-    color: rgb(153, 153, 153);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-weight: bold;
-    padding: 10px;
-    background-color: aliceblue;
-    text-align: center;
 }
