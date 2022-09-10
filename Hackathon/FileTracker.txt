@@ -1,0 +1,23 @@
+everything:
+Fonts.css
+General.css
+Footer.css
+
+DONE
+Login.html, LoginError.html:
+Login.css
+
+UPDATE
+Welcome:
+Welcome.html
+
+
+ManagerControl.html, ManagerOverview.html:
+NavBar.css
+
+
+FONT USAGE:
+    font-family: 'Raleway', sans-serif;
+	font-family: 'main', Segoe UI Black, Helvetica, sans-serif;
+    font-family: 'cute', Brush Script MT;
+    font-family: 'anon', 'cute', Anonymous Pro;
