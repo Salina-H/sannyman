@@ -16,7 +16,7 @@ submit.addEventListener("click", (e) => {
     } 
     if (username === MAN) {
         location.href = "ManagerOverview.html";
-    } else {
-        location.href = "UserOverview.html"
+    } else if (username === EMP) {
+        location.href = "UserOverview.html";
     }
 })
