@@ -1,0 +1,91 @@
+.clear-float{
+    clear: both;
+}
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    font-size: 15vw;
+    letter-spacing: 15px;
+    padding-top: 20vh;
+    padding-bottom: 20px;
+}
+h2{
+    font-weight: 600;
+    font-size: 25;
+    letter-spacing: 4px;
+}
+
+section.welcome{
+    margin: 0 10px 0 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    height: 100vh;
+    background-color: rgb(230, 242, 253);
+}
+a.arrow{
+    float: left;
+    margin-left: 42vw;
+    padding: 60px;
+    border-right: 3px solid rgb(255, 255, 255);
+    border-top: 3px solid rgb(255, 255, 255);
+    transform: rotate(135deg);
+
+}
+#aboutSannyMan{
+    padding: 80px 50px 50px 50px;
+}
+div.align{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p.about{
+    font-size: 20;
+    float: left;
+    width: 50%;
+}
+img.back{
+    float: right;
+    width: 40%;
+    max-width: 300px;
+}
+
+a.login{
+    display: block;
+	font-size: 50;
+	text-align: center;
+	font-family: 'anon', 'cute', Anonymous Pro;
+	font-weight: bold;
+	color:white;
+	transition-duration: 0.4s;
+	text-decoration: none;
+    padding: 20px;
+    background-color: gainsboro;
+}
+a.login:hover{
+	background-color: gray;
+	text-align: center;
+}
+a.footer{
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
+div.footer{
+    color: rgb(153, 153, 153);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    padding: 10px;
+    background-color: aliceblue;
+    text-align: center;
+}
