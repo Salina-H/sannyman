@@ -14,9 +14,9 @@ submit.addEventListener("click", (e) => {
     if (username !== MAN || username !== EMP || password !== PASS) {
         location.href = "LoginError.html";
     } 
-    if (username === MAN) {
+    if (username === MAN && password === PASS) {
         location.href = "ManagerOverview.html";
-    } else if (username === EMP) {
+    } else if (username === EMP && password === PASS) {
         location.href = "UserOverview.html";
     }
 })
