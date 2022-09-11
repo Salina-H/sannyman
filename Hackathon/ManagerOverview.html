@@ -9,6 +9,7 @@
         <link rel=" stylesheet" type="text/css" href="Overview.css">
     </head>
     <body>
+        <script src="src/dataDisp.js"> </script>
         <ul class="navBar">
             <li class="activeNavItem navBar">
                 <a class="navItem" href="ManagerOverview.html">Overview</a></li>
@@ -17,35 +18,37 @@
         <div class="clear-float"></div>
         <br>
         <div class="category">
-            <h1>Category 1</h1>
-            <div class="dispenser">
-                <h2 class="dispenser">Dispenser 1</h2>
-                <!--if >100 then class = full, else class = empty-->
-                <p class="dispenser empty">100 left</p>
-            </div>
+            <h1>Floor 1</h1>
+            <a id="b1">
+                <div class="dispenser">
+                    <h2 class="dispenser">Dispenser 1</h2>
+                    <!--if >100 then class = full, else class = empty-->
+                    <p class="dispenser empty" id="d1">100 left</p>
+                </div>
+            </a>
             <div class="dispenser">
                 <h2 class="dispenser">Dispenser 2</h2>
                 <!--if >100 then class = full, else class = empty-->
-                <p class="dispenser full">500 left</p>
+                <p class="dispenser full" id="d2">500 left</p>
             </div>
         </div>
         <div class="category">
-            <h1>Category 2</h1>
+            <h1>Floor 2</h1>
             <div class="dispenser">
                 <h2 class="dispenser">Dispenser 3</h2>
                 <!--if >100 then class = full, else class = empty-->
-                <p class="dispenser empty">50 left</p>
+                <p class="dispenser empty" id="d3">50 left</p>
             </div>
             <div class="dispenser">
                 <h2 class="dispenser">Dispenser 4</h2>
                 <!--if >100 then class = full, else class = empty-->
-                <p class="dispenser full">400 left</p>
+                <p class="dispenser full" id="d4">400 left</p>
             </div>
 
             <div class="dispenser">
                 <h2 class="dispenser">Dispenser 5</h2>
                 <!--if >100 then class = full, else class = empty-->
-                <p class="dispenser full">340 left</p>
+                <p class="dispenser full" id="d5">340 left</p>
             </div>
         </div>
         <br>
