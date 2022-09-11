@@ -1,0 +1,22 @@
+body{
+    background-color: aliceblue;
+}
+h2.dispenser{
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    margin: 20px 20px;
+}
+button{
+    width: 30vw;
+    margin: 10 auto;
+    border: none;
+}
+h2.dispenser, button{
+    font-family: 'anon', 'cute', Anonymous Pro;
+    padding: 20px;
+    border-radius: 20px;
+}
+div.dispenser{
+    margin-bottom: 20px;
+}
